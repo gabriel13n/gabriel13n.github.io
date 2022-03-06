@@ -1,30 +1,69 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #2d2a2e;
-    text-align: center; 
+    background-color: #2d2a2e; 
 }
 
 .orange {
     color: #fc9867;
+    text-align: center;
+    
 }
 
-#skills {
+#skills, #links {
     color: #fc9867;
-}
-
-#links {
-    color: #fc9867;
+    text-align: center;
 }
 
 #aboutme {
-    color: #cfd2ea
+    color: #cfd2ea;
+    position: absolute;
+    left: 230px;
+    top: 120px;
+    right: 50px;
+    
 }
 
 .cinza {
     color: #cfd2ea;
     font-size: 17px;
+    text-align: center;
+    
 }
 
 .green {
     color: #A6E22E;
-{
+}
+
+#mypicture {
+    float: left;
+    width:190px ;
+    padding: 5px;
+    border-radius: 10px
+    
+}
+
+.image-container {
+    height: 350px;
+    position: relative;
+}
+
+#sobremim {
+    color: #fc9867;
+    position: absolute;
+    left: 900px;
+    top: 80px;
+    
+}
+
+li {
+    list-style: none;
+}
+
+h4 {
+    text-align: left;
+    color: #fc9867;
+}
+
+
+
+
